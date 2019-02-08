@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#6f7179</color>
+    <color name="color_white">#ffffff</color>
+    <color name="color_black">#000000</color>
+    <color name="yellow_home">#E6BA15</color>
+    <color name="cat_list_view_bg">#373737</color>
+    <color name="post_detail_color">#6f7179</color>
+</resources>

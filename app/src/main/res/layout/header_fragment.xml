@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tool_bar"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/w_h_50"
+
+    android:orientation="vertical"
+    app:contentInsetStart="0dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+    <!--<RelativeLayout-->
+        <!--android:id="@+id/rl_tool_bar"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent">-->
+
+
+
+        <!--<ImageView-->
+            <!--android:id="@+id/iv_menu_toolbar"-->
+            <!--android:layout_width="25dp"-->
+            <!--android:layout_height="20dp"-->
+            <!--android:layout_marginRight="@dimen/w_h_10"-->
+            <!--android:scaleType="fitXY"-->
+            <!--android:src="@drawable/tb_men"-->
+            <!--android:layout_centerVertical="true"-->
+            <!--android:layout_alignParentEnd="true" />-->
+
+
+    <!--</RelativeLayout>-->
+
+</android.support.v7.widget.Toolbar>

@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="/Users/ravisarani/Androidproject/PublishedAndroid/CMC_Insights/linkedin-sdk/src/main/jniLibs"/></dataSet><dataSet config="debug"><source path="/Users/ravisarani/Androidproject/PublishedAndroid/CMC_Insights/linkedin-sdk/src/debug/jniLibs"/></dataSet></merger>

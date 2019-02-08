@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">CMC Insights</string>
+    <string name="home_finance">Enter</string>
+    <string name="home_desc">With fundamental shifts in technology, customer preferences and macroeconomics driving enormous change; there has never been a more exciting time to be in financial services. Cmc insights will address your burning questions around the key opportunities and challenges facing the industry such as ai, gdpr, blockchain and much more. Stay connected to the latest in financial services technology, where ever you are.</string>
+    <string name="coose_cat">CHOOSE A CATEGORY</string>
+    <string name="facebook_app_id">957980294350918</string>
+    <string name="you_tube_key"></string>
+    <string name="cmc_details">CMC is a global B2B event organiser and we are doing things rather differently.We work exclusively within Financial Services and our focus is firmly on understanding our communities needs and requirements. With relationships built on trust and integrity we deliver measurable results.\n\nEach event is industry led and delivers a personal and unique experience which supports our client’s objectives.\n\nThe foundation of all our processes is built on shared intelligence.The integrity of intelligence gathered allows for accelerated business conversations which are both relevant and timely, delivering valuable long-term relationships between our attendees.By keeping it simple and doing it well, CMC have designed innovative programmes that facilitate a culture of open dialogue through our relentless focus on interaction and engagement.Accelerating business conversations is only the beginning, when the event finishes our community grows.\n\nSome say we have disrupted the B2B Events industry, join us and see for yourself.</string>
+    <string name="reg_h1">If you’re happy to receive insights straight to your inbox, please register below.</string>
+    <string name="reg_bottom_txt">Your personal data will only be used for the purpose of sending CMC Insights updates direct to your inbox. Your data will be stored securely and will not be forwarded on to any third party.</string>
+    <string name="comment_success">Thank you for your comment</string>
+    <string name="reg_agreement"> Do you agree to give your  consent for CMC to contact you about our products and services?</string>
+    <string name="yes">Yes. I agree.</string>
+    <string name="accept_false">Please select the consent box to proceed.</string>
+</resources>

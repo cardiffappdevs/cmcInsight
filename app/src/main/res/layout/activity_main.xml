@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.eugein.cmc_insights.MainActivity">
+
+    <fragment
+        android:id="@+id/headerFrag"
+        android:name="com.example.eugein.cmc_insights.HeaderFragement"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <include
+            android:id="@+id/tool_bar_home"
+            layout="@layout/tool_bar" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tool_bar_home"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="240dp"
+                android:background="@color/color_black">
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="200dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:layout_margin="@dimen/margin_left_20"
+                    android:src="@drawable/logo" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/finans_bg"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:id="@+id/rl_focus"
+                    android:layout_width="match_parent"
+                    android:layout_height="110dp"
+                    android:layout_marginBottom="2dp"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginRight="2dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:alpha="0.8"
+                        android:background="@color/yellow_home"></RelativeLayout>
+
+                    <TextView
+                        android:id="@+id/tv_home_title"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        android:text="@string/home_finance"
+                        android:textColor="@color/color_white"
+                        android:textSize="20sp" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginRight="2dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:alpha="0.8"
+                        android:background="@color/yellow_home"></RelativeLayout>
+
+                    <TextView
+                        android:id="@+id/tv_home_desc"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="@dimen/margin_left_20"
+                        android:layout_marginRight="@dimen/margin_left_20"
+                        android:text="@string/home_desc"
+                        android:textAlignment="center"
+                        android:textAllCaps="false"
+                        android:textColor="@color/color_black"
+                        android:textSize="13sp" />
+                </RelativeLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+    <include layout="@layout/slider_menu" />
+</android.support.v4.widget.DrawerLayout>

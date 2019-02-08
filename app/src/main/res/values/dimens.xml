@@ -1,0 +1,55 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="w_h_50">50dp</dimen>
+    <dimen name="nav_chat_width">30dp</dimen>
+    <dimen name="nav_chat_height">35dp</dimen>
+    <dimen name="menu_icon_width">55dp</dimen>
+    <dimen name="menu_icon_padding">12dp</dimen>
+    <dimen name="chat_icon_padding">5dp</dimen>
+    <dimen name="chat_icon_width">25dp</dimen>
+    <dimen name="chat_icon_height">30dp</dimen>
+    <dimen name="hme_img_height">320dp</dimen>
+    <dimen name="text_size_20">20sp</dimen>
+    <dimen name="text_size_22">22sp</dimen>
+    <dimen name="text_size_25">25sp</dimen>
+    <dimen name="margin_left_20">20dp</dimen>
+    <dimen name="width_15">15dp</dimen>
+    <dimen name="text_size_15">15sp</dimen>
+    <dimen name="text_size_17">17sp</dimen>
+    <dimen name="showcase_header_75">65dp</dimen>
+    <dimen name="w_h_30">30dp</dimen>
+    <dimen name="text_size_14">14sp</dimen>
+    <dimen name="text_size_16">16sp</dimen>
+    <dimen name="text_size_12">12sp</dimen>
+    <dimen name="w_h_120">120dp</dimen>
+    <dimen name="w_h_20">20dp</dimen>
+    <dimen name="w_h_100">100dp</dimen>
+    <dimen name="w_h_5">5dp</dimen>
+    <dimen name="w_h_10">10dp</dimen>
+    <dimen name="w_h_135">135dp</dimen>
+    <dimen name="w_h_200">200dp</dimen>
+    <dimen name="w_h_1">1dp</dimen>
+    <dimen name="w_h_40">40dp</dimen>
+    <dimen name="w_h_170">170dp</dimen>
+    <dimen name="w_h_80">80dp</dimen>
+    <dimen name="w_h_75">75dp</dimen>
+    <dimen name="w_h_90">90dp</dimen>
+    <dimen name="w_h_85">85dp</dimen>
+    <dimen name="w_h_25">25dp</dimen>
+    <dimen name="w_h_12">12dp</dimen>
+    <dimen name="text_size_10">10sp</dimen>
+    <dimen name="text_size_13">13sp</dimen>
+    <dimen name="text_size_18">18sp</dimen>
+    <dimen name="w_h_150">150dp</dimen>
+    <dimen name="w_h_3">3dp</dimen>
+    <dimen name="w_h_4">4dp</dimen>
+    <dimen name="w_h_2">2dp</dimen>
+    <dimen name="w_h_60">60dp</dimen>
+    <dimen name="w_h_45">45dp</dimen>
+    <dimen name="w_h_180">180dp</dimen>
+    <dimen name="w_h_16">16dp</dimen>
+    <dimen name="w_h_140">140dp</dimen>
+
+</resources>

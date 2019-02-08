@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/left_slider"
+    android:layout_width="300dp"
+    android:layout_height="match_parent"
+    android:layout_gravity="right"
+    android:layout_weight="0.5"
+    android:background="@color/color_black"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <!--<RelativeLayout-->
+    <!--android:id="@+id/profile_layout"-->
+    <!--android:orientation="vertical"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="100dp"-->
+    <!--android:clickable="true">-->
+
+    <!--<ImageButton-->
+    <!--android:id="@+id/ibMenuClose"-->
+    <!--android:layout_width="40dp"-->
+    <!--android:layout_height="40dp"-->
+    <!--android:padding="10dp"-->
+    <!--android:src="@drawable/close"-->
+    <!--android:layout_marginLeft="170dp"-->
+    <!--android:background="@drawable/backbutton_border"-->
+    <!--android:scaleType="centerInside"-->
+    <!--android:layout_marginTop="20dp"-->
+    <!--/>-->
+    <!--</RelativeLayout>-->
+
+    <RelativeLayout
+        android:id="@+id/lo_menu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ListView
+            android:id="@+id/lv_Menu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="80dp"
+            android:choiceMode="singleChoice"
+            android:divider="@null"
+            android:dividerHeight="0dp" />
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

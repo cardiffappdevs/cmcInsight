@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_white"
+    android:orientation="vertical"
+    tools:context="com.example.eugein.cmc_insights.CommentActivity">
+
+    <!--<fragment-->
+        <!--android:id="@+id/headerFrag"-->
+        <!--android:name="com.example.eugein.cmc_insights.HeaderFragement"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content" />-->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <include
+            android:id="@+id/tool_bar_comment"
+            layout="@layout/tool_bar" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_centerVertical="true">
+
+
+            <EditText
+                android:singleLine="true"
+                android:id="@+id/et_comment"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/w_h_80"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/reg_et_bg"
+                android:gravity="top"
+                android:hint="Comment"
+                android:paddingLeft="10dp"
+                android:paddingTop="@dimen/w_h_10"
+                android:textColor="@color/cat_list_view_bg"
+                android:textColorHint="#F0EFF5"
+                android:textCursorDrawable="@drawable/cursor"
+                android:textSize="@dimen/text_size_14" />
+
+            <EditText
+                android:id="@+id/et_name"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/w_h_40"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/reg_et_bg"
+                android:hint="Name (required)"
+                android:paddingLeft="10dp"
+                android:singleLine="true"
+                android:textColor="@color/cat_list_view_bg"
+                android:textColorHint="#F0EFF5"
+                android:textCursorDrawable="@drawable/cursor"
+                android:textSize="@dimen/text_size_14" />
+
+            <EditText
+                android:id="@+id/et_emal"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/w_h_40"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/reg_et_bg"
+                android:hint="Email (required)"
+                android:paddingLeft="10dp"
+                android:singleLine="true"
+                android:textColor="@color/cat_list_view_bg"
+                android:textColorHint="#F0EFF5"
+                android:textCursorDrawable="@drawable/cursor"
+                android:textSize="@dimen/text_size_14" />
+
+            <EditText
+                android:id="@+id/et_website"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/w_h_40"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/reg_et_bg"
+                android:hint="Website"
+                android:paddingLeft="10dp"
+                android:singleLine="true"
+                android:textColor="@color/cat_list_view_bg"
+                android:textColorHint="#F0EFF5"
+                android:textCursorDrawable="@drawable/cursor"
+                android:textSize="@dimen/text_size_14" />
+
+            <Button
+                android:id="@+id/btn_post_comment"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/w_h_40"
+                android:layout_marginBottom="15dp"
+                android:layout_marginLeft="@dimen/w_h_20"
+                android:layout_marginRight="@dimen/margin_left_20"
+                android:layout_marginTop="30dp"
+                android:background="@color/color_black"
+                android:text="Post Comment"
+                android:textAllCaps="false"
+                android:textColor="@color/color_white"
+                android:textSize="@dimen/text_size_17" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <!--<include layout="@layout/slider_menu" />-->
+</android.support.v4.widget.DrawerLayout>
